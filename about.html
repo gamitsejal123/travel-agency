@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,149 +8,158 @@
   </head>
   <body>
     <!-- header----------------------------------------------------------------------------- -->
-<header class="navbar">
-  <div class="nav-container">
+    <header class="navbar">
+      <div class="nav-container">
+        <!-- Logo -->
+        <div class="logo">
+          <h1><span>T</span>ravel Bee</h1>
+        </div>
 
-    <!-- Logo -->
-    <div class="logo">
-      <h1><span>T</span>ravel Bee</h1>
-    </div>
+        <!-- Links -->
+        <nav class="nav">
+          <ul id="navMenu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./packages.html">Packages</a></li>
+            <li><a href="./community.html">Community</a></li>
+            <li class="mobile-signup">
+              <a href="#" class="signup-link">Sign Up</a>
+            </li>
+          </ul>
+        </nav>
 
-    <!-- Links -->
-    <nav class="nav">
-      <ul id="navMenu">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/packages.html">Packages</a></li>
-        <li><a href="/community.html">Community</a></li>
-        <li class="mobile-signup">
-          <a href="#" class="signup-link">Sign Up</a>
-        </li>
-      </ul>
-    </nav>
+        <!-- Desktop Sign Up -->
+        <button class="signup-btn">Sign Up</button>
 
-    <!-- Desktop Sign Up -->
-    <button class="signup-btn">Sign Up</button>
+        <!-- Hamburger -->
+        <button class="hamburger" id="hamburger">☰</button>
+      </div>
+    </header>
 
-    <!-- Hamburger -->
-    <button class="hamburger" id="hamburger">☰</button>
+    <!-- home page------------------------------------------------------------------------------------------------------ -->
 
-  </div>
-</header>
-
-     <!-- home page------------------------------------------------------------------------------------------------------ -->
-
-      <!-- HERO SECTION -->
-  <section class="about-hero">
-    <div class="about-left">
-      <h1>About <span>Travel Bee</span></h1>
-      <p>
-        Travel Bee is your trusted partner in discovering the most beautiful
-        destinations around the world. We help you plan, explore, and enjoy
-        unforgettable travel experiences with expert guidance and curated
-        travel options.
-      </p>
-    </div>
-
-    <div class="about-right">
-      <img src="/images/travel.jpg" alt="Travel" />
-    </div>
-  </section>
-
-  <!-- WHY CHOOSE US -->
-  <section class="why-us">
-    <h2>Why Choose Us?</h2>
-
-    <div class="why-cards">
-      <div class="why-card">
-        <h3>Expert Guidance</h3>
+    <!-- HERO SECTION -->
+    <section class="about-hero">
+      <div class="about-left">
+        <h1>About <span>Travel Bee</span></h1>
         <p>
-          Our travel experts provide you with the best recommendations and
-          personalized travel plans.
+          Travel Bee is your trusted partner in discovering the most beautiful
+          destinations around the world. We help you plan, explore, and enjoy
+          unforgettable travel experiences with expert guidance and curated
+          travel options.
         </p>
       </div>
 
-      <div class="why-card">
-        <h3>Affordable Packages</h3>
-        <p>
-          We offer budget-friendly travel packages without compromising on
-          quality.
-        </p>
+      <div class="about-right">
+        <img src="./images/travel.jpg" alt="Travel" />
       </div>
+    </section>
 
-      <div class="why-card">
-        <h3>24/7 Support</h3>
-        <p>
-          Our customer support team is available round the clock to assist you.
-        </p>
+    <!-- WHY CHOOSE US -->
+    <section class="why-us">
+      <h2>Why Choose Us?</h2>
+
+      <div class="why-cards">
+        <div class="why-card">
+          <h3>Expert Guidance</h3>
+          <p>
+            Our travel experts provide you with the best recommendations and
+            personalized travel plans.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <h3>Affordable Packages</h3>
+          <p>
+            We offer budget-friendly travel packages without compromising on
+            quality.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <h3>24/7 Support</h3>
+          <p>
+            Our customer support team is available round the clock to assist
+            you.
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- TEAM SECTION -->
-  <section class="team">
-    <h2>Meet Our Team</h2>
+    <!-- TEAM SECTION -->
+    <section class="team">
+      <h2>Meet Our Team</h2>
 
-    <div class="team-grid">
-      <div class="team-card">
-        <img src="/images/team-1.webp" alt="Team Member" />
-        <h4>Jane Cooper</h4>
-        <p>Founder & CEO</p>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="./images/team-1.webp" alt="Team Member" />
+          <h4>Jane Cooper</h4>
+          <p>Founder & CEO</p>
+        </div>
+
+        <div class="team-card">
+          <img src="./images/team-2.jpeg" alt="Team Member" />
+          <h4>John Smith</h4>
+          <p>Travel Consultant</p>
+        </div>
+
+        <div class="team-card">
+          <img src="./images/team-3.jpg" alt="Team Member" />
+          <h4>Emma Brown</h4>
+          <p>Marketing Head</p>
+        </div>
       </div>
+    </section>
+     
+  <section class="about-map">
+  <h2>Our Location</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.7669882707287!2d72.83762637924312!3d21.121853930402594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8a1614bfd38c6fbd%3A0xb671534052a07bea!2sBimfrox!5e0!3m2!1sen!2sin!4v1768632117776!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    </section>
 
-      <div class="team-card">
-        <img src="/images/team-2.jpeg" alt="Team Member" />
-        <h4>John Smith</h4>
-        <p>Travel Consultant</p>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- TOP PART -->
+        <div class="footer-top">
+          <div class="footer-logo">
+            <h1><span>T</span>ravel Bee</h1>
+          </div>
+
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="footer-line" />
+
+        <!-- BOTTOM PART -->
+        <div class="footer-bottom">
+          <p class="copyright">© 2022 Lynch Consulting Ltd.</p>
+
+          <ul class="legal-links">
+            <li>Imprint</li>
+            <li>Privacy</li>
+            <i class="fa-brands fa-facebook facebook-icon"></i>
+            <i class="fa-brands fa-square-instagram instagram-icon"></i>
+            <i class="fa-brands fa-square-twitter twitter-icon"></i>
+          </ul>
+        </div>
       </div>
-
-      <div class="team-card">
-        <img src="/images/team-3.jpg" alt="Team Member" />
-        <h4>Emma Brown</h4>
-        <p>Marketing Head</p>
-      </div>
-    </div>
-  </section>
-
-<!-- ===== FOOTER ===== -->
-<footer class="footer">
-
-  <div class="footer-container">
-
-    <!-- TOP PART -->
-    <div class="footer-top">
-      <div class="footer-logo">
-        <h1><span>T</span>ravel Bee</h1>
-      </div>
-
-      <div class="footer-links">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <hr class="footer-line">
-
-    <!-- BOTTOM PART -->
-    <div class="footer-bottom">
-      <p class="copyright">© 2022 Lynch Consulting Ltd.</p>
-
-      <ul class="legal-links">
-        <li>Imprint</li>
-        <li>Privacy</li>
-        <i class="fa-brands fa-facebook facebook-icon"></i>
-        <i class="fa-brands fa-square-instagram instagram-icon"></i>
-       <i class="fa-brands fa-square-twitter twitter-icon"></i>
-      </ul>
-    </div>
-
-  </div>
-</footer>
-   <script src="javascript.js"></script>
+    </footer>
+    <script src="javascript.js"></script>
   </body>
 </html>
