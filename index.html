@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Agency</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   </head>
   <body>
+    <!-- header----------------------------------------------------------------------------- -->
 <header class="navbar">
   <div class="nav-container">
 
@@ -99,194 +102,233 @@
       </select>
     </div>
 
-    <button class="search-btn">Search</button>
+    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
   </div>
 </section>
 
     <!--Categories----------------------------------------------------------------------->
-    <section>
-      <div class="top">
-        <h1>Categories</h1>
+<section class="categories">
+  <div class="top">
+    <h1>Categories</h1>
+    <p>
+      Here are lots of interesting destination to visit, but don't be
+      confused — they are clearly grouped by category.
+    </p>
+  </div>
+
+  <div class="bottom">
+    <div class="field">
+      <img src="/images/pyramid.jpeg" alt="Pyramid" />
+      <h4>Pyramid</h4>
+    </div>
+    <div class="field">
+      <img src="/images/mountain.jpeg" alt="Mountain" />
+      <h4>Mountain</h4>
+    </div>
+    <div class="field">
+      <img src="/images/masjid.jpeg" alt="Mosque" />
+      <h4>The Mosque</h4>
+    </div>
+    <div class="field">
+      <img src="/images/view.jpeg" alt="Desert" />
+      <h4>Desert</h4>
+    </div>
+    <div class="field">
+      <img src="/images/tower.jpeg" alt="Tower" />
+      <h4>Tower</h4>
+    </div>
+    <div class="field">
+      <img src="/images/beach.jpeg" alt="Beach" />
+      <h4>Beach</h4>
+    </div>
+  </div>
+</section>
+
+<!-- Destination -->
+<section class="destination">
+  <div class="destination-header">
+    <div>
+      <h1>Popular Destination</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <div class="slide-btn">
+      <button class="left-btn">←</button>
+      <button class="right-btn">→</button>
+    </div>
+  </div>
+
+  <div class="card-wrapper">
+    <div class="card">
+      <img src="/images/great barrier.jpeg" />
+      <h3>Great Barrier</h3>
+      <p>22 places · 3 Activities</p>
+      <div class="price">
+        <span>$895.50</span>
+        <button>Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/images/swiss  alps.jpeg" />
+      <h3>Swiss Alps</h3>
+      <p>12 places · 2 Activities</p>
+      <div class="price">
+        <span>$769.99</span>
+        <button>Book Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/images/santarini.jpeg" />
+      <h3>Santorini</h3>
+      <p>34 places · 3 Activities</p>
+      <div class="price">
+        <span>$39.80</span>
+        <button>Book Now</button>
+      </div>
+    </div>
+
+    
+
+    <div class="card">
+      <img src="/images/boat.jpeg" />
+      <h3>Sea Show</h3>
+      <p>10 places · 3 Activities</p>
+      <div class="price">
+        <span>$939.50</span>
+        <button>Book Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BOOKING SECTION -->
+<section class="booking-ui">
+  <div class="booking-wrapper">
+
+    <!-- LEFT CARD (DOUBLE LAYER EFFECT) -->
+    <div class="booking-card-back"></div>
+
+    <div class="booking-card">
+      <div class="booking-row">
+        <h4><i class="fa-solid fa-car-rear"></i> Book Car</h4>
         <p>
-          Here are lots of interesting destination to visit,but don't be
-          <br />confused-they be clearly grouped by category.
+          Lorem ipsum is simply dummy text of the printing and
+          typesetting industry dummy text of the printing.
         </p>
+        <button class="explore-btn">
+          Explore more <span>→</span>
+        </button>
       </div>
-      <div class="bottom">
-        <div class="field">
-          <img src="/images/pyramid.jpeg" alt="pyramid" />
-          <h4>Pyramid</h4>
-        </div>
-        <div class="field">
-          <img src="/images/mountain.jpeg" alt="mountain" />
-          <h4>Mountain</h4>
-        </div>
-        <div class="field">
-          <img src="/images/masjid.jpeg" alt="masjid" />
-          <h4>The Mosque</h4>
-        </div>
-        <div class="field">
-          <img src="/images/view.jpeg" alt="view" />
-          <h4>Desert</h4>
-        </div>
-        <div class="field">
-          <img src="/images/tower.jpeg" alt="tower" />
-          <h4>Tower</h4>
-        </div>
-        <div class="field">
-          <img src="/images/beach.jpeg" alt="beach" />
-          <h4>Beach</h4>
-        </div>
-      </div>
-    </section>
-    <!-- Destination -->
-    <section>
-      <div class="up-right">
-        <h1>Popular Destination</h1>
+
+      <div class="booking-row">
+        <h4><i class="fa-solid fa-hotel"></i> Book Hotel</h4>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, sunt.
+          Lorem ipsum is simply dummy text of the printing and
+          typesetting industry dummy text of the printing.
         </p>
-        <div class="slide-btn">
-          <button class="left-btn">←</button>
-          <button class="right-btn">→</button>
-        </div>
+        <button class="explore-btn">
+          Explore more <span>→</span>
+        </button>
       </div>
-    </section>
-    <section class="card-section">
-      <!-- first card--------------------------------------------------------------------- -->
-      <div class="card">
-        <div class="first-part">
-          <img src="/images/great barrier.jpeg" alt="" />
-          <h3>Great Barrier</h3>
-          <p>22 places 3 Activites</p>
-        </div>
-        <div class="second-part">
-          <h2>$895.50</h2>
-          <button class="b-btn">Book Now</button>
-        </div>
-      </div>
-      <!-- second card -->
-      <div class="card">
-        <div class="first-part">
-          <img src="/images/swiss  alps.jpeg" alt="" />
-          <h3>Swiss Alps</h3>
-          <p>12 places 2 Activites</p>
-        </div>
-        <div class="second-part">
-          <h2>$769.99</h2>
-          <button class="b-btn">Book Now</button>
-        </div>
-      </div>
-      <!-- third card -->
-      <div class="card">
-        <div class="first-part">
-          <img src="/images/santarini.jpeg" alt="" />
-          <h3>santarini</h3>
-          <p>34 places 3 Activites</p>
-        </div>
-        <div class="second-part">
-          <h2>$39.80</h2>
-          <button class="b-btn">Book Now</button>
-        </div>
-      </div>
-      <!-- fourth card -->
-      <div class="card">
-        <div class="first-part">
-          <img src="/images/boat.jpeg" alt="" />
-          <h3>Sea show</h3>
-          <p>10places 3 Activites</p>
-        </div>
-        <div class="second-part">
-          <h2>$939.50</h2>
-          <button class="b-btn">Book Now</button>
-        </div>
-      </div>
-    </section>
-    <!--booking section -->
-    <section class="visit-section">
-      <div class="left-text">
-        <div class="book-car">
-          <h3>Book Car</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. beatae hic
-            illo rem harum inventore.
-          </p>
-          <label for="button">Explore more</label>
-          <input type="button" value="→" id="button" />
-        </div>
-        <div class="book-hotel">
-          <h3>Book Hotel</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. beatae hic
-            illo rem harum inventore.
-          </p>
-          <label for="button">Explore more</label>
-          <input type="button" value="→" id="button" />
-        </div>
-      </div>
-      <div class="right-img">
-        <img src="/images/flower.jpeg" alt="" />
-      </div>
-    </section>
-    <!-- review section -->
-    <section class="review-section">
-      <div class="R-text">
-        <h1>Client Review</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, sunt.
-        </p>
-        <div class="L-btn">
-          <button class="left-btn">←</button>
-          <button class="right-btn">→</button>
-        </div>
-      </div>
-      <!-- review -->
-      <div class="d-part">
-        <div class="Review-img">
-          <img src="/images/boy.png" alt="" />
-        </div>
-        <div class="exp">
-          <img src="/images/exp.png" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet
-            <br />
-            ad beatae deleniti maxime saepe fuga maiores inventore ratione dicta
-            <br />
-            maxime saepe fuga maiores.
-          </p>
-          <h3>Jane Cooper</h3>
-          <h5>Lorem</h5>
-        </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <section class="top-footer">
-      <div class="logo-footer">
+    </div>
+
+    <!-- ARROW -->
+    <div class="booking-arrow">
+      ➜
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="booking-image">
+      <img src="/images/chair.jpeg" alt="Resort view">
+    </div>
+
+  </div>
+</section>
+
+<!-- =====  REVIEW SECTION ===== -->
+<section class="review-section">
+
+  <div class="review-top">
+    <div class="review-text">
+      <h1>Client Review</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, sunt.
+      </p>
+    </div>
+
+    <div class="review-buttons">
+      <button class="rev-btn left-btn">←</button>
+      <button class="rev-btn right-btn">→</button>
+    </div>
+  </div>
+
+  <div class="review-main">
+    <div class="review-left">
+      <img src="/images/boy.png" alt="client" />
+    </div>
+
+    <div class="review-right">
+      <img src="/images/exp.png" alt="profile" />
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet
+        ad beatae deleniti maxime saepe fuga maiores inventore ratione dicta
+        maxime saepe fuga maiores.
+      </p>
+    
+      <h3>Jane Cooper</h3>
+      <br>
+      <h5>Lorem</h5>
+      <h5><i class="fa-solid fa-dollar-sign"></i> <i class="fa-solid fa-star star-icon"></i></h5>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ===== FOOTER (EXACT UI) ===== -->
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- TOP PART -->
+    <div class="footer-top">
+      <div class="footer-logo">
         <h1><span>T</span>ravel Bee</h1>
       </div>
+
       <div class="footer-links">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About us</a></li>
-          <li><a href="">Products</a></li>
-          <li><a href="">FAQ</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
-      </section>
-      <span class="line"><hr></span>
-      <section class="bottom-footer">
-      <div class="privacy-footer">
-        <p>2022LynchConsultingLtd.</p>
-        </div>
-        <div class="iteams">
-        <ul>
-          <li>imprint</li>
-          <li>privacy</li>
-        </ul>
-      </div>
-      </section>
-    </footer>
+    </div>
+
+    <hr class="footer-line">
+
+    <!-- BOTTOM PART -->
+    <div class="footer-bottom">
+      <p class="copyright">© 2022 Lynch Consulting Ltd.</p>
+
+      <ul class="legal-links">
+        <li>Imprint</li>
+        <li>Privacy</li>
+        <i class="fa-brands fa-facebook facebook-icon"></i>
+        <i class="fa-brands fa-square-instagram instagram-icon"></i>
+       <i class="fa-brands fa-square-twitter twitter-icon"></i>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
    <script src="javascript.js"></script>
   </body>
 </html>

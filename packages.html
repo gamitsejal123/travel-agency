@@ -7,21 +7,149 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <section class="header">
-      <div class="logo">
+        <!-- header----------------------------------------------------------------------------- -->
+<header class="navbar">
+  <div class="nav-container">
+
+    <!-- Logo -->
+    <div class="logo">
+      <h1><span>T</span>ravel Bee</h1>
+    </div>
+
+    <!-- Links -->
+    <nav class="nav">
+      <ul id="navMenu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/packages.html">Packages</a></li>
+        <li><a href="/community.html">Community</a></li>
+        <li class="mobile-signup">
+          <a href="#" class="signup-link">Sign Up</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Desktop Sign Up -->
+    <button class="signup-btn">Sign Up</button>
+
+    <!-- Hamburger -->
+    <button class="hamburger" id="hamburger">☰</button>
+
+  </div>
+</header>
+
+ <!-- PACKAGES HERO -->
+  <section class="packages-hero">
+    <div class="packages-hero-text">
+      <h1>Explore Our <span>Travel Packages</span></h1>
+      <p>
+        Discover carefully curated travel experiences designed for every kind of traveler.
+        Choose from adventure, luxury, family, and budget-friendly trips.
+      </p>
+    </div>
+  </section>
+
+  <!-- FILTER BAR -->
+  <section class="packages-filter">
+    <button class="filter-btn active">All</button>
+    <button class="filter-btn">Adventure</button>
+    <button class="filter-btn">Luxury</button>
+    <button class="filter-btn">Family</button>
+    <button class="filter-btn">Budget</button>
+  </section>
+
+  <!-- PACKAGES GRID -->
+  <section class="packages-grid">
+
+    <div class="package-card">
+      <img src="/images/great barrier.jpeg" alt="Great Barrier" />
+      <div class="package-info">
+        <h3>Great Barrier Reef</h3>
+        <p>22 places · 3 Activities</p>
+        <div class="price-row">
+          <span>$895.50</span>
+          <button>Book Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="package-card">
+      <img src="/images/swiss  alps.jpeg" alt="Swiss Alps" />
+      <div class="package-info">
+        <h3>Swiss Alps</h3>
+        <p>12 places · 2 Activities</p>
+        <div class="price-row">
+          <span>$769.99</span>
+          <button>Book Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="package-card">
+      <img src="/images/santarini.jpeg" alt="Santorini" />
+      <div class="package-info">
+        <h3>Santorini</h3>
+        <p>34 places · 3 Activities</p>
+        <div class="price-row">
+          <span>$39.80</span>
+          <button>Book Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="package-card">
+      <img src="/images/boat.jpeg" alt="Sea Show" />
+      <div class="package-info">
+        <h3>Sea Show</h3>
+        <p>10 places · 3 Activities</p>
+        <div class="price-row">
+          <span>$939.50</span>
+          <button>Book Now</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+<!-- ===== FOOTER (EXACT UI) ===== -->
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- TOP PART -->
+    <div class="footer-top">
+      <div class="footer-logo">
         <h1><span>T</span>ravel Bee</h1>
       </div>
-      <div class="nav">
+
+      <div class="footer-links">
         <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/packages.html">Packages</a></li>
-          <li><a href="/community.html">Community</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
-      <div class="button">
-        <button class="s-btn">Sign up</button>
-      </div>
-    </section>
+    </div>
+
+    <hr class="footer-line">
+
+    <!-- BOTTOM PART -->
+    <div class="footer-bottom">
+      <p class="copyright">© 2022 Lynch Consulting Ltd.</p>
+
+      <ul class="legal-links">
+        <li>Imprint</li>
+        <li>Privacy</li>
+        <i class="fa-brands fa-facebook facebook-icon"></i>
+        <i class="fa-brands fa-square-instagram instagram-icon"></i>
+       <i class="fa-brands fa-square-twitter twitter-icon"></i>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+  <script src="javascript.js"></script>
   </body>
 </html>

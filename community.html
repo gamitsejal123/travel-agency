@@ -7,21 +7,136 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <section class="header">
-      <div class="logo">
+    <!-- header----------------------------------------------------------------------------- -->
+<header class="navbar">
+  <div class="nav-container">
+
+    <!-- Logo -->
+    <div class="logo">
+      <h1><span>T</span>ravel Bee</h1>
+    </div>
+
+    <!-- Links -->
+    <nav class="nav">
+      <ul id="navMenu">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/packages.html">Packages</a></li>
+        <li><a href="/community.html">Community</a></li>
+        <li class="mobile-signup">
+          <a href="#" class="signup-link">Sign Up</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Desktop Sign Up -->
+    <button class="signup-btn">Sign Up</button>
+
+    <!-- Hamburger -->
+    <button class="hamburger" id="hamburger">☰</button>
+
+  </div>
+</header>
+
+
+  <!-- COMMUNITY HERO -->
+  <section class="community-hero">
+    <div class="community-text">
+      <h1>Join Our <span>Travel Community</span></h1>
+      <p>
+        Connect with fellow travelers, share your experiences,
+        get tips, and explore inspiring travel stories from around the world.
+      </p>
+      <button class="primary-btn">Join Now</button>
+    </div>
+  </section>
+
+  <!-- COMMUNITY FEATURES -->
+  <section class="community-features">
+    <div class="feature-card">
+      <h3>Share Experiences</h3>
+      <p>Post your travel stories, photos, and tips with other travelers.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Ask Questions</h3>
+      <p>Get real-time travel advice from experienced explorers.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Find Travel Partners</h3>
+      <p>Meet like-minded people and plan trips together.</p>
+    </div>
+  </section>
+
+  <!-- RECENT POSTS SECTION -->
+  <section class="community-posts">
+    <h2>Recent Discussions</h2>
+
+    <div class="post-grid">
+
+      <div class="post-card">
+        <img src="/images/community-1.jpg" alt="Post image">
+        <h4>Best time to visit Bali?</h4>
+        <p>Looking for advice on the best season to travel to Bali.</p>
+        <span>Posted by: Jane</span>
+      </div>
+
+      <div class="post-card">
+        <img src="/images/community-2.jpg" alt="Post image">
+        <h4>Budget Europe trip tips</h4>
+        <p>Sharing my 10-day budget itinerary for Europe.</p>
+        <span>Posted by: Mark</span>
+      </div>
+
+      <div class="post-card">
+        <img src="/images/community-3.jpg" alt="Post image">
+        <h4>Must-visit places in India</h4>
+        <p>Let’s discuss hidden gems across India.</p>
+        <span>Posted by: Priya</span>
+      </div>
+
+    </div>
+  </section>
+    <!-- ===== FOOTER (EXACT UI) ===== -->
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- TOP PART -->
+    <div class="footer-top">
+      <div class="footer-logo">
         <h1><span>T</span>ravel Bee</h1>
       </div>
-      <div class="nav">
+
+      <div class="footer-links">
         <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/packages.html">Packages</a></li>
-          <li><a href="/community.html">Community</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
-      <div class="button">
-        <button class="s-btn">Sign up</button>
-      </div>
-    </section>
+    </div>
+
+    <hr class="footer-line">
+
+    <!-- BOTTOM PART -->
+    <div class="footer-bottom">
+      <p class="copyright">© 2022 Lynch Consulting Ltd.</p>
+
+      <ul class="legal-links">
+        <li>Imprint</li>
+        <li>Privacy</li>
+        <i class="fa-brands fa-facebook facebook-icon"></i>
+        <i class="fa-brands fa-square-instagram instagram-icon"></i>
+       <i class="fa-brands fa-square-twitter twitter-icon"></i>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+  <script src="javascript.js"></script>
   </body>
 </html>
